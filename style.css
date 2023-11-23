@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,400;1,600&family=Poppins:wght@400;500;700;900&display=swap");
+
+body {
+  background-image: url(./sfondo.png);
+  font-family: "Poppins", sans-serif;
+}
+header {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 370px;
+  height: 250px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: rgb(18, 157, 185);
+  background: linear-gradient(
+    180deg,
+    rgba(18, 157, 185, 1) 0%,
+    rgba(15, 115, 135, 1) 46%,
+    rgba(11, 91, 107, 1) 100%
+  );
+  box-shadow: -1px 2px 4px 0px gray;
+}
+.logo {
+  width: 300px;
+}
+.sottotitolo {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font: bold;
+  color: white;
+}
+.spazio {
+  margin-bottom: 7px;
+}
+.white {
+  color: white;
+  font: bold;
+}
+main {
+  margin: 0 auto;
+  width: 410px;
+  background: white;
+  margin-top: 30px;
+  box-shadow: 0px 2px 4px 2px gray;
+}
+h1 {
+  font-size: 35px;
+  font: 00;
+  margin-left: 0.5px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.grigio {
+  color: rgb(184, 184, 184);
+  padding-bottom: 30px;
+  font-size: 20px;
+}
+p {
+  padding-bottom: 20px;
+}
+div {
+  margin-left: 20px;
+  font-size: 21px;
+}
+h4 {
+  margin-top: 20px;
+}
+span {
+  color: rgb(138, 4, 138);
+  font-weight: 500;
+}
+caption {
+  font-weight: 500;
+}
+.spaziatura {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
