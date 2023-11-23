@@ -53,6 +53,7 @@ h1 {
   margin-left: 0.5px;
   padding-top: 40px;
   padding-bottom: 30px;
+  font-weight: 500;
 }
 .grigio {
   color: rgb(184, 184, 184);
@@ -64,7 +65,8 @@ p {
 }
 div {
   margin-left: 20px;
-  font-size: 21px;
+  font-size: 20px;
+  margin-right: 20px;
 }
 h4 {
   margin-top: 20px;
@@ -80,60 +82,16 @@ caption {
   margin-top: 20px;
   margin-bottom: 0px;
 }
-iframe {
-  box-shadow: -50px -76px 0px -93px rgba(0, 0, 0, 0.1);
-}
-table.blueTable {
-  border: 0px solid #a4999a;
-  background-color: #ffffff;
-  text-align: center;
-  border-collapse: collapse;
-}
-table.blueTable td,
-table.blueTable th {
-  border: 0px solid #aaaaaa;
-  padding: 5px 10px;
-}
-table.blueTable tbody td {
-  font-size: 21px;
-  color: #241133;
-}
-table.blueTable tr:nth-child(even) {
-  background: #f1f1f1;
-}
-table.blueTable thead {
+th {
+  color: white;
   background: #176ad1;
-  border-bottom: 1px solid #176ad1;
-}
-table.blueTable thead th {
-  font-size: 21px;
-  /* font-weight: bold; */
-  color: #ffffff;
+  padding: 20px;
+  margin-right: 20px;
   text-align: center;
-  border-left: 1px solid #a0a0a0;
 }
-table.blueTable thead th:first-child {
-  border-left: none;
-}
-
-table.blueTable tfoot {
-  font-size: 8px;
-  font-weight: bold;
-  color: #ffffff;
-  background: #d0e4f5;
-  background: -moz-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #d0e4f5 100%);
-  background: -webkit-linear-gradient(
-    top,
-    #dcebf7 0%,
-    #d4e6f6 66%,
-    #d0e4f5 100%
-  );
-  /* background: linear-gradient(to bottom, #dcebf7 0%, #d4e6f6 66%, #d0e4f5 100%);
-  border-top: 2px solid #176ad1; */
-}
-table.blueTable tfoot td {
-  font-size: 8px;
-}
-footer {
-  border-top: 1px solid #176ad1;
+iframe {
+  width: 370px;
+  height: 200px;
+  border-radius: 20px;
+  margin-bottom: 30px;
 }
